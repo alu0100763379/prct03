@@ -1,2 +1,24 @@
 18) Hello World
-21)
+21) El intérprete de Ruby muestra simplemente la salida Hello World, mientras que el intérprete intrcativo muestra la siguiente salida:
+helloworld.rb(main):001:0> puts "Hello World"
+Hello World
+=> nil
+helloworld.rb(main):002:0> 
+26) [1] pry(main)> puts x
+10
+=> nil
+[2] pry(main)> def hello
+[2] pry(main)*   puts "Hello World"
+[2] pry(main)* end  
+=> nil
+[3] pry(main)> hello
+Hello World
+=> nil
+[4] pry(main)> byebye
+bye bye world!!!
+=> nil
+[5] pry(main)> x = "changed"
+=> "changed"
+[6] pry(main)> exit
+program resumes here. Value of x is: changed.
+27)
